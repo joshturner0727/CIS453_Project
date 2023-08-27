@@ -5,7 +5,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <img src={plaza} alt="Plaza" />
+        <img class ="plaza" src={plaza} alt="Plaza" />
         <h2>Welcome to Explore Manassas!</h2>
         <p>At Explore Manassas, we are not just a website; we are your culinary compass, 
           guiding you through the rich dining landscape of our community.</p>

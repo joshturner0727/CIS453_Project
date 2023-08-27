@@ -1,10 +1,10 @@
 body {
-  background-color: #C4E8E6;
+  background-color: #e7ecec;
   padding: 20px;
   margin: 0;
 }
 h1, h2, p, ul, li {
-  font-family: sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 ul.header li {
   display: inline;
@@ -21,9 +21,13 @@ ul.header li a {
   text-decoration: none;
   padding: 20px;
   display: inline-block;
+  transition: background-color 0.3s ease;
+}
+ul.header li a:hover {
+  background-color: #7ca4c9; 
 }
 .content {
-  background-color: #C4E8E6;
+  background-color: #e7ecec;
   padding: 20px;
 }
 .content h2 {
@@ -34,5 +38,11 @@ ul.header li a {
   margin-bottom: 10px;
 }
 .active {
-  background-color: #5b488f;
+  background-color: #cfc7e6;
+}
+.plaza {
+  width: 300px;
+  height: 200px;
+  box-shadow: 10px 10px 5px 12px lightblue;
+  margin-bottom: 30px;
 }

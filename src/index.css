@@ -43,6 +43,6 @@ ul.header li a:hover {
 .plaza {
   width: 300px;
   height: 200px;
-  box-shadow: 10px 10px 5px 12px lightblue;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem lightblue);
   margin-bottom: 30px;
 }
